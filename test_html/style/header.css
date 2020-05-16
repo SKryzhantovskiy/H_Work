@@ -1,0 +1,35 @@
+.head{
+    margin: 0 auto;
+    padding: 17px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+.logo{
+    width: 55px;
+    height: 55px;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+.head-link{
+    list-style: none;
+}
+.head-link li{
+    display: inline-block;
+    width: 154px;
+    height: 31px;
+}
+.head-link li:not(:first-child){
+    margin-left: 40px;
+}
+.head-link a{
+    cursor: pointer;
+}
+.head-link img{
+    width: 100%;
+    height: auto;
+}
