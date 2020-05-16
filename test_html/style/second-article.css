@@ -29,8 +29,8 @@
     text-align: end;
 }
 .second-article__picture{
-    width: 588px;
-    height: 386px;
+   max-width: 588px;
+   max-height: 386px;
 }
 .second-article__picture img{
     width: 100%;

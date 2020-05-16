@@ -1,7 +1,6 @@
 .first-article{
     width: 100%;
-    padding-top: 80px;
-    padding-bottom: 85px;
+    padding: 80px 0px;
 }
 .first-article__wrapper{
     margin: 0 auto;
@@ -13,8 +12,8 @@
     width: 380px;
 }
 .first-article__picture{
-    width: 380px;
-    height: 244px;
+    max-width: 380px;
+    max-height: 244px;
 }
 .first-article__picture a{
     cursor: pointer;
